@@ -4,6 +4,30 @@
   box-sizing: border-box;
 }
 
+a:link {
+  color: darkcyan;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: greenyellow;
+}
+
+/* selected link */
+a:active {
+  color: greenyellow;
+}
+
+
+html {
+  background-image: url('https://www.emt.ae/wp-content/uploads/2015/12/geometic-bg-white-2.jpg');
+}
+
 :root {
   --main-color: #21482F;
   --secondary-color: #348367;
